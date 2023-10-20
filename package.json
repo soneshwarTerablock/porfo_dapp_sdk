@@ -1,0 +1,26 @@
+{
+  "name": "porfo_dapp_sdk",
+  "version": "1.0.0",
+  "description": "porfo wallet connect npm library to watch and analyse wallet status and transaction",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soneshwarTerablock/porfo_dapp_sdk.git"
+  },
+  "keywords": [],
+  "author": "Porfo <soneshwar@terablock.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/soneshwarTerablock/porfo_dapp_sdk/issues"
+  },
+  "homepage": "https://github.com/soneshwarTerablock/porfo_dapp_sdk#readme",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  },
+  "files": ["lib/**/*"]
+}
